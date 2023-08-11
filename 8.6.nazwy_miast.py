@@ -57,7 +57,7 @@ while True: # działa w nieskończoność
 # 8.6 Nazwy miast. Utwórz funkcję o nazwie city_country() pobierającą nazwę miasta i kraju, w którym ono leży. Wartością zwrotną funkcji powinien być ciąg tekstowy sformatowany w dany sposób.
 
 def city_coutry(city, country):
-    """Zwraca ciąg tekstowy"""
+    """Zwraca ciąg tekstowy."""
     print(f"{city.title()}, {country.title()}")
 
 city_coutry('wrocław', 'poland')
