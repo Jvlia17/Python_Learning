@@ -1,6 +1,6 @@
 # 8.8 Albumy użytkowników. Pracę rozpocznij od programu utworzonego w ćwiczeniu 8.7. Dodaj pętlę while pozwalającą użytkownikom na wprowadzanie artysty i tytułu płyty.
 
-def make_album(band_name, album_name, number_of_tracks = None):
+def make_album(band_name, album_name, number_of_tracks=None):
     """Zwraca album muzyczny."""
     album = {'band/artist': band_name, 'album': album_name}
     if number_of_tracks:
@@ -16,5 +16,5 @@ while True:
     album_name = input("Nazwa albumu: ")
     if album_name == 'q':
         break
-    album = make_album(band_name = band_name, album_name = album_name)
+    album = make_album(band_name=band_name, album_name=album_name)
     print(f"Twój album: {album}")

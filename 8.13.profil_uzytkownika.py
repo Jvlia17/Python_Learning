@@ -6,5 +6,5 @@ def build_profile(first, last, **user_info):
     user_info['last_name'] = last
     return user_info
 
-user_profile = build_profile('julia', 'rzepka', title = 'inżynier', kolor_oczu = 'zielone', typ_włosów = 'kręcone')
+user_profile = build_profile('julia', 'rzepka', title='inżynier', kolor_oczu='zielone', typ_włosów='kręcone')
 print(user_profile)
