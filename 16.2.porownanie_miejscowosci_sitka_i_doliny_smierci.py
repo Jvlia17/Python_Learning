@@ -1,4 +1,4 @@
-# 16.2 Porównanie miejscowości SItka i Doliny Śmierci.
+# 16.2 Porównanie miejscowości Sitka i Doliny Śmierci.
 
 import csv
 from matplotlib import pyplot as plt
