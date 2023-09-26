@@ -1,0 +1,1 @@
+# 17.2 Aktywne dyskusje. Wykorzystując dane zebrane w programie hn_submissions.py, uwtórz wykres słupkowy pokazujący najaktywniejsze dyskusje prowadzone obecnie w witrynie Hacker News.
